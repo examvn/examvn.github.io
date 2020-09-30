@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+}
+
+form,
+header,
+#outer,
+#reason,
+footer {
+    border: 1px black;
+}
+
+form {
+    width: 80%;
+    height: 100%;
+    border-style: dotted solid solid dotted;
+    margin: auto;
+    padding: .2%;
+    border-color: pink !important;
+}
+
+header {
+    border-style: solid dotted dotted solid;
+}
+
+#tenBang {
+    margin-top: 0;
+}
+
+#mota {
+    margin-bottom: 0;
+}
+
+#outer {
+    margin-top: .3%;
+    border-style: solid dotted dotted solid;
+    padding: .2%;
+}
+
+#inner {
+    border: 4px solid black;
+    height: 9.4em;
+    padding-top: .2%;
+}
+
+section {
+    float: left;
+    width: 38.5%;
+    border: 1px solid black;
+    margin: .08%;
+    padding: .5%;
+}
+
+.dau {
+    clear: both;
+    width: 19% !important;
+    text-align: left;
+    height: 14%;
+}
+
+#blank {
+    border-color: white;
+}
+
+#reason {
+    margin-top: .2%;
+    border-style: solid dotted dotted solid;
+}
+
+#ld {
+    margin-top: 2%;
+}
+
+footer {
+    margin-top: .2%;
+    border-style: solid dotted dotted solid;
+}
+
+#tren {
+    margin-top: 3%;
+}
+
+#duoi {
+    margin-top: 2%;
+    margin-bottom: .1%;
+}
+
+#huy {
+    margin-right: 1.5%;
+}
+
+button {
+    color: blue;
+}
+
+button:hover {
+    color: pink;
+}

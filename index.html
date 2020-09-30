@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chó mèo Test</title>
+    <link rel="stylesheet" href="s.css">
+</head>
+
+<body>
+    <form>
+        <header>
+            <h4 id="tenBang">BẢNG ĐIỀU TRA VẬT NUÔI YÊU THÍCH</h4>
+            <p id="mota">Trả lời các câu hỏi sau về các con vật yêu thích của bạn</p>
+        </header>
+        <article id="outer">
+            <article id="inner">
+                <section class="dau" id="blank"></section>
+                <section>CHÓ</section>
+                <section>MÈO</section>
+                <section class="dau">BẠN NUÔI</section>
+                <section>
+                    <input type="checkbox" id="coCho"> CÓ
+                </section>
+                <section>
+                    <input type="checkbox" id="coMeo"> CÓ
+                </section>
+                <section class="dau">TÊN</section>
+                <section>
+                    <input type="text" id="tenCho">
+                </section>
+                <section>
+                    <input type="text" id="tenMeo">
+                </section>
+                <section class="dau">MÀU LÔNG</section>
+                <section id="longCho">
+                    <input type="radio" name="mauCho"> Đen
+                    <input type="radio" name="mauCho"> Trắng
+                    <input type="radio" name="mauCho"> Khác
+                </section>
+                <section id="longMeo">
+                    <input type="radio" name="mauMeo"> Đen
+                    <input type="radio" name="mauMeo"> Trắng
+                    <input type="radio" name="mauMeo"> Khác
+                </section>
+            </article>
+        </article>
+        <article id="reason">
+            <!-- <p> -->
+            <u><i>Lý do bạn yêu quý nó</i></u>
+            <!-- </p> -->
+            <article>
+                <textarea id="ld" cols="25" rows="4"></textarea>
+            </article>
+        </article>
+        <footer>
+            <article id="tren">
+                <button type="button" id="huy" onclick="khiHuy()">Huy</button>
+                <button type="reset">Xoa</button>
+            </article>
+            <article id="duoi">
+                <button type="button" onclick="khiGui()">Gui</button>
+            </article>
+        </footer>
+    </form>
+    <script src="s.js"></script>
+</body>
+
+</html>
